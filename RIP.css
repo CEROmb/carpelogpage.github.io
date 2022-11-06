@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@400;600&display=swap');
+.center {
+    font-family: 'Oswald', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to top, #000000, #ffffff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+.text {
+    font-size: 25px;
+    background: linear-gradient(
+            to right, #c2c2c2, #000000);
+             -webkit-text-fill-color: transparent;
+             -webkit-background-clip: text;
+             -webkit-text-stroke-color: #000000; 
+             -webkit-text-stroke-width: 1px;        
+}
+
+body {
+    background: linear-gradient(to top, #000000, #ffffff);
+}
